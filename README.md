@@ -1,5 +1,7 @@
 # RateMD-Datapipe
-CIS 4400 (Data Warehousing for Analytics): Term Project - Group 1
+Group 1 - Baruch College, Summer 2025  
+Professor: Jefferson Bien-Aime  
+
 # Project Readme
 
 ## A. Problem Context
