@@ -1,4 +1,4 @@
-# RateMD-Datapipe
+# Doctors ratings evaluation on RateMDs - CIS 4400 Project 2  
 **Group 1 - Baruch College, Summer 2025**   
 **Professor: Jefferson Bien-Aime**  
 
