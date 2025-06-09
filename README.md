@@ -1,5 +1,5 @@
 # RateMD-Datapipe
-**Group 1 - Baruch College, Summer 2025** 
+**Group 1 - Baruch College, Summer 2025**   
 **Professor: Jefferson Bien-Aime**  
 
 # Project Readme
