@@ -44,10 +44,10 @@ A data warehouse will be created to evaluate and analyze the ratings of doctors,
     - Week 5: Final Report, Presentation and Submission
         - Complete README, presentation slides and tableau visuals
 - Benefits
-  - Outline the expected benefits of the project.
-  - Example:
-    - Improved data accuracy
-    - Enhanced decision-making capabilities
+  	- Reviews and ratings data can help drive decisions based on ways to improve the quality of doctor performance and specialties. 
+	- Identify locations with the lowest number of practicing doctors and how to improve that population density. 
+	- Information from the data can help organize job placements for aspiring doctors based on location. 
+
 
 ## Business Requirements:  
 Analyze and visualize doctor ratings from RateMDs to provide insights into healthcare quality accross different regions, and help patients make informed choices:  
