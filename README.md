@@ -60,6 +60,7 @@ We’ll be identifying the average, minimum, maximum, and total number of doctor
 -	Postal code
 -	Per specialty 
 -	Per state
+  
 This will be conducted to determine which county, state, and zip code have the lowest doctor ratings. 
  
 
