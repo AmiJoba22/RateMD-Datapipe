@@ -53,7 +53,15 @@ A data warehouse will be created to evaluate and analyze the ratings of doctors,
 Analyze and visualize doctor ratings from RateMDs to provide insights into healthcare quality accross different regions, and help patients make informed choices:  
 - Identify geographic trends in doctor ratings at the state, county and zip code.  
 - Determine which specialities perfrom best or worst in specific regions.  
-- Help patients locate areas with high-rated doctors based on speciality and location.  
+- Help patients locate areas with high-rated doctors based on speciality and location.
+  
+We’ll be identifying the average, minimum, maximum, and total number of doctor ratings
+-	Per county
+-	Postal code
+-	Per specialty 
+-	Per state
+This will be conducted to determine which county, state, and zip code have the lowest doctor ratings. 
+ 
 
 ## Functional Requirements
 - List the functional requirements for the project, detailing the core features and actions.
