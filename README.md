@@ -46,9 +46,9 @@ A data warehouse will be created to evaluate and analyze the ratings of doctors,
 - Benefits
   	- Reviews and ratings data can help drive decisions based on ways to improve the quality of doctor performance and specialties. 
 	- Identify locations with the lowest number of practicing doctors and how to improve that population density. 
-	- Information from the data can help organize job placements for aspiring doctors based on location. 
-
-
+	- Information from the data can help organize job placements for aspiring doctors based on location.
+ 	- Data consistency can potentially increase patient reliance on RateMD
+   	  
 ## Business Requirements:  
 Analyze and visualize doctor ratings from RateMDs to provide insights into healthcare quality accross different regions, and help patients make informed choices:  
 - Identify geographic trends in doctor ratings at the state, county and zip code.  
@@ -65,6 +65,7 @@ Analyze and visualize doctor ratings from RateMDs to provide insights into healt
     
 ### 4. Data Requirements
 The data required for this process will be retrieved from a MongoDB database with over 2 million records from RateMD. The region analyzed will mainly be in the United States. 
+
 From MongoDB, we’ll be analyzing and querying the following fields for our schema and dimensional modeling: 
 -	Doctor ID 
 -	Latitude, Longitude
