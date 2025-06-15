@@ -64,10 +64,15 @@ Analyze and visualize doctor ratings from RateMDs to provide insights into healt
   - Data must be consistently and accurately grouped by region and specialty.   
     
 ### 4. Data Requirements
-- Outline the types and sources of data required for the project.
-- Example:
-  - Structured data from internal databases
-  - Unstructured data from external sources (e.g., social media, surveys)
+The data required for this process will be retrieved from a MongoDB database with over 2 million records from RateMD. The region analyzed will mainly be in the United States. 
+From MongoDB, we’ll be analyzing and querying the following fields for our schema and dimensional modeling: 
+-	Doctor ID 
+-	Latitude, Longitude
+-	Province, Country, City, Zip code 
+-	Ratings, rating count
+-	Rating services, Rating Facilities
+-	Punctuality, Cleanliness, Neutrality, Helpfulness, Knowledge
+-	Specialty
 
 ## C. Architecture
 
