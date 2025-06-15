@@ -5,9 +5,9 @@
 # Project Readme
 
 ## A. Problem Context
-Provide a brief description of the problem you're addressing. Include any background information necessary to understand the project.
+RateMD is a website that allows users to find doctors locally and view their ratings and patients’ experiences with them. You can filter these ratings by location, specialty, service, facilities, etc. Patients rely on RateMD to find suitable healthcare providers; therefore, we must ensure the data maintains its value of consistency and reliability. 
 
-*Problem description goes here.*
+A data warehouse will be created to evaluate and analyze the ratings of doctors, preferably in the U.S.A., based on contributing factors such as location, services, specialty, and number of doctors. This analysis will allow us to query and analyze different metrics and KPI’s such as ratings, location, trends, and doctor population. It will also reveal patterns that can aid in decision-making for healthcare administrators and facilities
 
 ## B. Requirements
 
