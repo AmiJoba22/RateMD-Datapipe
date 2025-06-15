@@ -11,7 +11,7 @@ Provide a brief description of the problem you're addressing. Include any backgr
 
 ## B. Requirements
 
-### 1. Requirements Analysis
+## Requirements Analysis
 - Business Personas
   - List the key stakeholders and their roles.
   - Example:
@@ -22,35 +22,47 @@ Provide a brief description of the problem you're addressing. Include any backgr
   - Example:
     - Data privacy concerns
     - Integration with existing systems
-- Costs
-  - Estimate the costs associated with the project.
-  - Example:
-    - Software licenses: $X
-    - Hardware upgrades: $Y
-- Timeline
-  - Provide a high-level timeline for the project.
-  - Example:
-    - Phase 1: Requirements Gathering (Month 1)
-    - Phase 2: Development (Months 2-4)
-    - Phase 3: Testing and Deployment (Month 5)
+- Costs  
+    - Software licenses: $0  
+       - All tools used (MongoDb, Tableau, Python) are free to use.  
+    - Hardware upgrades: $0  
+       - Personal computers are being used for this project, therefore no addiional hardware is needed.  
+    - Data access: $0  
+       - Data is Provided by the professor via MongoDb.  
+    - Total Estimated Cost: $0
+- Timeline  
+    - Week 1: Requirements Gathering and Data Understanding
+        - Define busniess and functional requirements
+    - Week 2: Extract and clean data from MongoDB; begin ETL pipeline setup
+        - Clean and trandform data for analysis
+    - Week 3: Data Integration and Preparation
+        - Load cleaned data into structured format.
+        -  Begin building visualization dashboard on Tableau.
+    - Week 4: Analysis, and Visualization
+        - Finalize visualizations
+        - Run queries (avg/min/max ratings per state, county, zip and spciality)  
+    - Week 5: Final Report, Presentation and Submission
+        - Complete README, presentation slides and tableau visuals
 - Benefits
   - Outline the expected benefits of the project.
   - Example:
     - Improved data accuracy
     - Enhanced decision-making capabilities
 
-### 2. Business Requirements
-- List the high-level business goals and objectives the project aims to achieve.
-- Example:
-  - Reduce operational costs
-  - Improve data accessibility for decision-makers
+## Business Requirements:  
+Analyze and visualize doctor ratings from RateMDs to provide insights into healthcare quality accross different regions, and help patients make informed choices:  
+- Identify geographic trends in doctor ratings at the state, county and zip code.  
+- Determine which specialities perfrom best or worst in specific regions.  
+- Help patients locate areas with high-rated doctors based on speciality and location.  
 
-### 3. Functional Requirements
+## Functional Requirements
 - List the functional requirements for the project, detailing the core features and actions.
 - Example:
-  - System must allow users to query and analyze data
-  - Data entry form must support multiple input types
-
+  - System must allow users to filter doctor ratings by state, county or zip code.  
+  - Users must be able to view avverage, minimum, maximum and count of doctor ratings for a selected location.  
+  - System should display ratings by speciality within the chosen location.
+  - Data must be consistently and accurately grouped by region and specialty.   
+    
 ### 4. Data Requirements
 - Outline the types and sources of data required for the project.
 - Example:
