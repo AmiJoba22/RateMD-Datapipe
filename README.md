@@ -4,12 +4,12 @@
 
 # Project Readme
 
-## A. Problem Context
+## Problem Context
 RateMD is a website that allows users to find doctors locally and view their ratings and patients’ experiences with them. You can filter these ratings by location, specialty, service, facilities, etc. Patients rely on RateMD to find suitable healthcare providers; therefore, we must ensure the data maintains its value of consistency and reliability. 
 
 A data warehouse will be created to evaluate and analyze the ratings of doctors, preferably in the U.S.A., based on contributing factors such as location, services, specialty, and number of doctors. This analysis will allow us to query and analyze different metrics and KPI’s such as ratings, location, trends, and doctor population. It will also reveal patterns that can aid in decision-making for healthcare administrators and facilities
 
-## B. Requirements
+## Requirements
 
 ## Requirements Analysis
 - Business Personas
@@ -74,7 +74,7 @@ This will be conducted to determine which county, state, and zip code have the l
   - System should display ratings by speciality within the chosen location.
   - Data must be consistently and accurately grouped by region and specialty.   
     
-### 4. Data Requirements
+## Data Requirements
 The data required for this process will be retrieved from a MongoDB database with over 2 million records from RateMD. The region analyzed will mainly be in the United States. 
 
 From MongoDB, we’ll be analyzing and querying the following fields for our schema and dimensional modeling: 
@@ -86,7 +86,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 -	Punctuality, Cleanliness, Neutrality, Helpfulness, Knowledge
 -	Specialty
 
-## C. Architecture
+## Architecture
 
 ### 1. Information Architecture
 - Describe the structure and flow of the information.
