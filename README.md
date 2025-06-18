@@ -1,6 +1,6 @@
 # Doctors ratings evaluation on RateMDs - CIS 4400 Project 2  
 **Group 1 - Baruch College, Summer 2025**   
-**Professor: Jefferson Bien-Aime**  
+**Data Engineers: Amina Jobarteh & Brayan Benito Tirado**  
 
 ## Problem Context
 RateMD is a website that allows users to find doctors locally and view their ratings and patients’ experiences with them. You can filter these ratings by location, specialty, service, facilities, etc. Patients rely on RateMD to find suitable healthcare providers; therefore, we must ensure the data maintains its value of consistency and reliability. 
