@@ -7,8 +7,7 @@ RateMD is a website that allows users to find doctors locally and view their rat
 
 A data warehouse will be created to evaluate and analyze the ratings of doctors, preferably in the U.S.A., based on contributing factors such as location, services, specialty, and number of doctors. This analysis will allow us to query and analyze different metrics and KPI’s such as ratings, location, trends, and doctor population. It will also reveal patterns that can aid in decision-making for healthcare administrators and facilities
 
-## Requirements
-
+## Requirements   
 ## Requirements Analysis
 - Business Personas
   - The stakeholders involved in this project are the following:
