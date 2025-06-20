@@ -96,7 +96,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 - Data is loaded into a data warehouse structured by star schema
 - Tableau connects to the warehouse for visualization
  
-  - ![image](https://github.com/user-attachments/assets/e64e0884-2146-4716-92b6-457a46f88e73)
+  ![image](https://github.com/user-attachments/assets/e64e0884-2146-4716-92b6-457a46f88e73)
 
 
 ### 3. Technical Architecture
