@@ -31,7 +31,7 @@ A data warehouse will be created to evaluate and analyze the ratings of doctors,
 - Timeline  
     - Week 1: Requirements Gathering and Data Understanding
         - Define busniess and functional requirements
-    - Week 2: Extract and clean data from MongoDB; begin ETL pipeline setup
+    - Week 2: Extract and clean data from MongoDB; begin ELT pipeline setup
         - Clean and trandform data for analysis
     - Week 3: Data Integration and Preparation
         - Load cleaned data into structured format.
@@ -91,7 +91,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 
 ### 2. Data Architecture
 - Raw data is stored in the MongoDB database
-- Raw data goes through an ETL pipeline for extracting and cleaning. This process is done to retrieve the relevant fields in the data.
+- Raw data goes through an ELT pipeline for extracting and cleaning. This process is done to retrieve the relevant fields in the data.
 - Clean data is then stored in the Azure blob container as temporary storage.
 - Data is loaded into a data warehouse structured by star schema
 - Tableau connects to the warehouse for visualization
