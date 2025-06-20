@@ -101,7 +101,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 
 ### 3. Technical Architecture
 - The software and hardware systems involved in this project are:
-     - Python for ETL pipeline and scripting
+     - Python for ELT pipeline and scripting
      - Azure for cloud computing and temporary storage
      - MongoDB as a source of data
      - Tableau for data visualization
