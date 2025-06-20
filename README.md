@@ -90,8 +90,12 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
   - ![Information Architecture Diagram](path_to_image)
 
 ### 2. Data Architecture
-- Describe the structure and flow of the data.
-- Include diagrams or images if necessary. 
+- Raw data is stored in the MongoDB database
+- Raw data goes through an ETL pipeline for extracting and cleaning. This process is done to retrieve the relevant fields in the data.
+- Clean data is then stored in the Azure blob container as temporary storage.
+- Data is loaded into a data warehouse structured by star schema
+- Tableau connects to the warehouse for visualization
+ 
   - ![Data Architecture Diagram](path_to_image)
 
 ### 3. Technical Architecture
