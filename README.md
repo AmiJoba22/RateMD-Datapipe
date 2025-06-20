@@ -96,7 +96,8 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 - Data is loaded into a data warehouse structured by star schema
 - Tableau connects to the warehouse for visualization
  
-  - ![Data Architecture Diagram](docs/diagram/Screenshot 2025-06-19 at 10.52.27 PM.png)
+  - ![image](https://github.com/user-attachments/assets/e64e0884-2146-4716-92b6-457a46f88e73)
+
 
 ### 3. Technical Architecture
 - Define the software and hardware systems involved in the project.
