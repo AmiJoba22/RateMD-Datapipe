@@ -100,11 +100,15 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 
 
 ### 3. Technical Architecture
-- Define the software and hardware systems involved in the project.
-- List any key technologies, tools, or platforms used. 
-  - Example: 
-    - Python for data analysis
-    - Azure for cloud computing
+- The software and hardware systems involved in this project are:
+     - Python for ETL pipeline and scripting
+     - Azure for cloud computing and temporary storage
+     - MongoDB as a source of data
+     - Tableau for data visualization
+     - Google Collab/Jupyter Notebook for testing Python scripts
+     - DB Schema for star schema modeling
+     - Excel for star schema planning 
+
 
 ### 4. Product Architecture
 - Provide an overview of the product's overall structure.
