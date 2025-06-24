@@ -87,7 +87,9 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 ### 1. Information Architecture
 - Describe the structure and flow of the information.
 - Include diagrams or images if necessary. 
-  - ![Information Architecture Diagram](path_to_image)
+  - ![Information Architecture Diagram](docs/diagram/Screenshot 2025-06-20 at 12.59.40 PM.png)
+<img width="725" alt="Screenshot 2025-06-20 at 12 59 40 PM" src="https://github.com/user-attachments/assets/e70615f7-5122-4eec-981d-7a5464bdbde1" />
+
 
 ### 2. Data Architecture
 - Raw data is stored in the MongoDB database
