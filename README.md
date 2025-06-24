@@ -93,7 +93,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
       - Due to the size of the data (2.2 million records), the script extracted the data to a temporary storage (Azure blob container) in chunks (100k records at a time). 
  - Clean, Reformat, and Transform:
       - The Python script will clean data by identifying missing and inconsistent fields
-      - We can also identify the average, minimum, maximum, and total number of doctor ratings per specific field. 
+      - The cleaned data will help us query the average, minimum, maximum, and total number of doctor ratings per specific field. 
  - Data Warehouse Loading: 
       - Data is loaded and stored into the data warehouse
 
