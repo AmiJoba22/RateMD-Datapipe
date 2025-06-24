@@ -1,4 +1,4 @@
-# Doctors ratings evaluation on RateMDs - CIS 4400 Project 2  
+# Doctors Ratings Evaluation On RateMDs - CIS 4400 Project 2  
 **Group 1 - Baruch College, Summer 2025**   
 **Data Engineers: Amina Jobarteh & Brayan Benito Tirado**  
 
