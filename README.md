@@ -63,10 +63,9 @@ This will be conducted to determine which county, state, and zip code have the l
  
 
 ## Functional Requirements
-- List the functional requirements for the project, detailing the core features and actions.
-- Example:
+- The functional requirements for the project, detailing the core features and actions.   
   - System must allow users to filter doctor ratings by state, county or zip code.  
-  - Users must be able to view avverage, minimum, maximum and count of doctor ratings for a selected location.  
+  - Users must be able to view average, minimum, maximum and count of doctor ratings for a selected location.  
   - System should display ratings by speciality within the chosen location.
   - Data must be consistently and accurately grouped by region and specialty.   
     
