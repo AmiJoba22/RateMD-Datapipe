@@ -133,7 +133,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
   - **Dimension**: include all dimensions
 
 *Include any necessary images or diagrams to clarify the architecture.*
-  - ![Dimensional Modeling Diagram](path_to_image)
+  - ![Dimensional Modeling Diagram](docs/diagram/ratemd.png)
 
 
 ### 2. Medallion Architecture
