@@ -110,7 +110,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 
 [Data Architecture Diagram File](https://drive.google.com/file/d/1KyyZ2T4iE91hcL56lzhs4_uFFrmGei2U/view?usp=sharing)
 
-[Data Architecture Diagram](docs/diagram/Screenshot2025-07-01at9.40.31PM.png)
+[Data Architecture Diagram](docs/diagram/dataarch.png)
 
 
 ### 3. Technical Architecture
