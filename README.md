@@ -107,8 +107,8 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 - Clean data is then stored in the Azure blob container as temporary storage.
 - Data is loaded into a data warehouse structured by star schema
 - Tableau connects to the warehouse for visualization
- 
-![Data Architecture Diagram](https://github.com/user-attachments/assets/e64e0884-2146-4716-92b6-457a46f88e73)
+[Data Architecture Diagram File](https://drive.google.com/file/d/1KyyZ2T4iE91hcL56lzhs4_uFFrmGei2U/view?usp=sharing)
+![Data Architecture Diagram](docs/diagram/Screenshot 2025-07-01 at 9.40.31 PM.png)
 
 
 ### 3. Technical Architecture
