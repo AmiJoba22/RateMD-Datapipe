@@ -109,7 +109,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 - Tableau connects to the warehouse for visualization
 [Data Architecture Diagram File](https://drive.google.com/file/d/1KyyZ2T4iE91hcL56lzhs4_uFFrmGei2U/view?usp=sharing)
 
-[Data Architecture Diagram](docs/diagram/Screenshot 2025-07-01 at 9.40.31 PM.png)
+[Data Architecture Diagram](https://github.com/AmiJoba22/RateMD-Datapipe/blob/352cdb8a38ec362f1fed4f2b9ba0500352416103/docs/diagram/Screenshot%202025-07-01%20at%209.40.31%20PM.png)
 
 
 ### 3. Technical Architecture
