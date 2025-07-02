@@ -131,7 +131,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 - Provide an overview of the product's overall structure.
 - Include any major components and how they interact.
 
-## D. Modeling
+## Dimensional Modeling  
 
 ### 1. Dimensional Modeling
 - Explain the dimensional modeling
