@@ -137,9 +137,8 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 - Explain the dimensional modeling
 - Example:
   - **Facts**: describe all the facts
-  - **Dimension**: include all dimensions
+  - **Dimension**: include all dimensions  
 
-*Include any necessary images or diagrams to clarify the architecture.*
   - ![Dimensional Modeling Diagram](https://github.com/AmiJoba22/RateMD-Datapipe/blob/main/docs/diagram/ratemd_schema.png)  
 
 
