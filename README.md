@@ -95,7 +95,9 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
       - The cleaned data will help us query the average, minimum, maximum, and total number of doctor ratings per specific field. 
  - Data Warehouse Loading: 
       - Data is loaded and stored into the data warehouse
+
 [Information Architecture Diagram File](https://drive.google.com/file/d/1yQ8kCZqVHiXviDYuDzm0dMQ2HInWzBGS/view?usp=sharing)
+
 ![Information Architecture Diagram](https://github.com/user-attachments/assets/e70615f7-5122-4eec-981d-7a5464bdbde1)
 
 
