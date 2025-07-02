@@ -121,8 +121,11 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
      - Tableau for data visualization
      - Google Collab/Jupyter Notebook for testing Python scripts
      - DB Schema for star schema modeling
-     - Excel for star schema planning 
+     - Excel for star schema planning
+  
+[Technical Architecture Diagram File](https://drive.google.com/file/d/1jEL6L44DEp3OfYQefv5G5MtxkTkDfVfS/view?usp=sharing)
 
+![Technical Architecture Diagram]()
 
 ### 4. Product Architecture
 - Provide an overview of the product's overall structure.
