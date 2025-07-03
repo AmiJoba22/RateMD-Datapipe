@@ -141,17 +141,6 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 
   - ![Dimensional Modeling Diagram](https://github.com/AmiJoba22/RateMD-Datapipe/blob/main/docs/diagram/ratemd_schema.png)  
 
-
-### 2. Medallion Architecture
-- Explain the medallion architecture and its stages: Bronze, Silver, Gold.
-- Example:
-  - **Bronze**: Raw, unprocessed data
-  - **Silver**: Cleaned and enriched data
-  - **Gold**: Aggregated, ready-for-use data
-
-*Include any necessary images or diagrams to clarify the architecture.*
-  - ![Medallion Architecture Diagram](path_to_image)
-
 ## E. Methodology and Implementation
 Describe the methodology used in the project and the steps followed during implementation.
 
