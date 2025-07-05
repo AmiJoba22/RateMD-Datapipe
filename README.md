@@ -128,8 +128,22 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 ![Technical Architecture Diagram](docs/diagram/techarch.png)
 
 ### 4. Product Architecture
-- Provide an overview of the product's overall structure.
-- Include any major components and how they interact.
+•	Product Overview:
+-	This product contains an ELT data pipeline and warehousing process that will allow us to understand relevant information and insights behind doctor/healthcare provider ratings, population, and location. The goal is to ensure that the product helps us fulfill our business, functional, and data requirements. 
+•	Main Components:
+o	Data Source 
+-	Healthcare provider data from RateMD is connected and contains data on doctor location, specialty, rating, appointment availability, etc.
+o	Python Extraction Script
+-	Python scripts were used to extract the data. 
+o	Temporary Storage
+-	The extracted data was stored in an Azure blob in case of any modification or errors when loading the data.
+o	Data Warehouse
+-	Raw data is loaded into the Snowflake warehouse. 
+o	Transformation
+-	This process contains cleaning, reformatting, and transforming the data to remove inconsistencies and help us retrieve relevant information about doctor ratings. 
+o	Data Visualization for Analytics 
+-	The visualization will be created using Tableau, which will help us figure out which county, state, and zip code has the lowest/highest doctor ratings. It also helps us answer whether or not our business, functional, and data requirements were fulfilled. 
+
 
 ## Dimensional Modeling  
 
