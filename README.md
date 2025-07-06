@@ -38,7 +38,7 @@ A data warehouse will be created to evaluate and analyze the ratings of doctors,
         -  Begin building visualization dashboard on Tableau.
     - Week 4: Analysis, and Visualization
         - Finalize visualizations
-        - Run queries (avg/min/max ratings per state, county, zip and spciality)  
+        - Run queries (avg/min/max ratings per state, , zip and speciality)  
     - Week 5: Final Report, Presentation and Submission
         - Complete README, presentation slides and tableau visuals
 - **Benefits**
@@ -54,7 +54,6 @@ Analyze and visualize doctor ratings from RateMDs to provide insights into healt
 - Help patients locate areas with high-rated doctors based on speciality and location.
   
 We’ll be identifying the average, minimum, maximum, and total number of doctor ratings
--	Per county
 -	Postal code
 -	Per specialty 
 -	Per state
