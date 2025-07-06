@@ -8,19 +8,19 @@ RateMD is a website that allows users to find doctors locally and view their rat
 A data warehouse will be created to evaluate and analyze the ratings of doctors, preferably in the U.S.A., based on contributing factors such as location, services, specialty, and number of doctors. This analysis will allow us to query and analyze different metrics and KPI’s such as ratings, location, trends, and doctor population. It will also reveal patterns that can aid in decision-making for healthcare administrators and facilities
 
 ## Requirements   
-## Requirements Analysis
-- Business Personas
+### Requirements Analysis
+- **Business Personas**
   - The stakeholders involved in this project are the following:
        - Data Analyst: Responsible for data analysis and reporting.
        - Healthcare Administrators & Analysts: Can use analysis to understand RateMD’s reliability.They can also use the UI visualization to make decisions for facilities. 
 
-- Risks
+-**Risks**
   - Potential risks and challenges: 
     - Continuous updates of records can throw off accuracy
     - Lack of consistent data between locations and ratings.
     - Missing or incomplete data on specific fields (Location, zip code, specialty). 
 
-- Costs  
+- **Costs** 
     - Software licenses: $0  
        - All tools used (MongoDb, Tableau, Python) are free to use.  
     - Hardware upgrades: $0  
@@ -28,7 +28,7 @@ A data warehouse will be created to evaluate and analyze the ratings of doctors,
     - Data access: $0  
        - Data is Provided by the professor via MongoDb.  
     - Total Estimated Cost: $0
-- Timeline  
+- **Timeline**  
     - Week 1: Requirements Gathering and Data Understanding
         - Define busniess and functional requirements
     - Week 2: Extract and clean data from MongoDB; begin ETL pipeline setup
@@ -41,7 +41,7 @@ A data warehouse will be created to evaluate and analyze the ratings of doctors,
         - Run queries (avg/min/max ratings per state, county, zip and spciality)  
     - Week 5: Final Report, Presentation and Submission
         - Complete README, presentation slides and tableau visuals
-- Benefits
+- **Benefits**
   	- Reviews and ratings data can help drive decisions based on ways to improve the quality of doctor performance and specialties. 
 	- Identify locations with the lowest number of practicing doctors and how to improve that population density. 
 	- Information from the data can help organize job placements for aspiring doctors based on location.
@@ -82,8 +82,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 -	Specialty
 
 ## Architecture
-
-### 1. Information Architecture
+### Information Architecture
  - Source:
       - The RateMD database is stored in MongoDB
       - The database was accessed via a connection string
@@ -101,7 +100,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 ![Information Architecture Diagram](https://github.com/user-attachments/assets/e70615f7-5122-4eec-981d-7a5464bdbde1)
 
 
-### 2. Data Architecture
+### Data Architecture
 - Raw data is stored in the MongoDB database
 - Raw data goes through an ETL pipeline for extracting and cleaning. This process is done to retrieve the relevant fields in the data.
 - Clean data is then stored in the Azure blob container as temporary storage.
@@ -113,7 +112,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 ![Data Architecture Diagram](docs/diagram/dataarch.png)
 
 
-### 3. Technical Architecture
+### Technical Architecture
 - The software and hardware systems involved in this project are:
      - Python for ETL pipeline and scripting
      - Azure for cloud computing and temporary storage
@@ -127,7 +126,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 
 ![Technical Architecture Diagram](docs/diagram/techarch.png)
 
-### 4. Product Architecture
+### Product Architecture
 - Product Overview:
      - This product contains an ELT data pipeline and warehousing process that will allow us to understand relevant information and insights behind doctor/healthcare provider ratings, population, and location. The goal is to ensure that the product helps us fulfill our business, functional, and data requirements.
   
@@ -147,8 +146,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 
 
 ## Dimensional Modeling  
-
-### 1. Dimensional Modeling
+### Dimensional Modeling
 - Explain the dimensional modeling
 - Example:
   - **Facts**: describe all the facts
@@ -159,20 +157,20 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 # Methodology and Implementation  
 We used a modified agile approach, across five weeks. Each sprit focused on key milestones from connection to data sources to modeling, trasnforming and visualizing the data. Tasks were divided by sprints and assigned among group members. 
 
-## Sprint 1: Data Collection and Storage  
+### Sprint 1: Data Collection and Storage  
 - We connected to MongoDb, which was our source of rateMD data. 
 - Using Google Colab, we authenticated to MongoDb and extracted the data.  
 - Because the dataset was too large to dowload all at once, we xtracted it in chunks - this helped avoid memory errors.
 - The dowloaded data was then uploaded to Azure Blob Storage, which we used as our central cloud respository.
   
-## Sprint 2: Data Processing and Modeling  
+### Sprint 2: Data Processing and Modeling  
 -  We cleaned and flattened the nested data fields - for example, converting location.rating.cleanliness into a clear named column: rating_cleanliness.
 -  We desgined a star schema using DbSchema, featuring one central fact table and three dimension tables.
 -  Dimension tables include:
       - **dim_location**
       - **dim_date**
       - **dim_specialty**
-## Spring 3: ELT pipeline and Transformation  
+### Spring 3: ELT pipeline and Transformation  
 Once the dimensional model was in place, we implemented layer using modern data tooling.  
 - We used dbt to create SQL-based models that transformed the raw data into cleaned, warehouse-ready tables.
 - The process followed an ELT approach:  
@@ -181,7 +179,7 @@ Once the dimensional model was in place, we implemented layer using modern data 
        - **Transform**: Use dbt models to clean, rename and structure the data.
 - The transformed output matched our dimensional models, ensuring consistency.
 
-## Spring 4: Visualization Planning & Wireframing  
+### Spring 4: Visualization Planning & Wireframing  
 - We started designing a wireframe to outline the key Tableau visualizations we want to build.
 - These visuals are based on our requirements and will help answer questions.
 - Final dashboards will be built using Tableau, and the visuals will be based on the fleaned fact and dimension tables in snowflake.   
