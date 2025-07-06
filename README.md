@@ -151,7 +151,8 @@ Our project uses a **star schema** approach to organize the RateMD data. The cen
 - `dim_location`: Provides geographic details such as county, state and zip code.
 - `dim_specialty`: Provides doctor specialty information.  
 - `dim_date`: This dimension provides date breakdown by day, month, quarter, and year.
-- A [data dictionary](https://docs.google.com/document/d/10pqov5ll8gd53zC5Y4RmAVgQYQJkMmGIZE5ut_S-cVw/edit?usp=sharing) was also created to describe the data fields. 
+- A [data dictionary](https://docs.google.com/document/d/10pqov5ll8gd53zC5Y4RmAVgQYQJkMmGIZE5ut_S-cVw/edit?usp=sharing) was also created to describe the data fields.
+  
 This star schema model supports filtering and slicing of data across geography, specialties and time.
 ![Dimensional Model](https://github.com/AmiJoba22/RateMD-Datapipe/blob/main/docs/diagram/ratemd_model.png)    
 
