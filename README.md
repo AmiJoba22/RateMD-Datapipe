@@ -152,7 +152,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
   - **Facts**: describe all the facts
   - **Dimension**: include all dimensions  
 
-  - ![Dimensional Modeling Diagram](https://github.com/AmiJoba22/RateMD-Datapipe/blob/main/docs/diagram/ratemd_schema.png)  
+  - ![Dimensional Model](https://github.com/AmiJoba22/RateMD-Datapipe/blob/main/docs/diagram/ratemd_model.png)    
 
 # Methodology and Implementation  
 We used a modified agile approach, across five weeks. Each sprit focused on key milestones from connection to data sources to modeling, trasnforming and visualizing the data. Tasks were divided by sprints and assigned among group members. 
