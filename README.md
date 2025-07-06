@@ -83,16 +83,16 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 
 ## Architecture
 ### Information Architecture
- - Source:
+ - **Source:**
       - The RateMD database is stored in MongoDB
       - The database was accessed via a connection string
- - Gather Data:
+ - **Gather Data:**
       - A Python script was used to connect and extract the data
       - Due to the size of the data (2.2 million records), the script extracted the data to a temporary storage (Azure blob container) in chunks (100k records at a time). 
- - Clean, Reformat, and Transform:
+ - **Clean, Reformat, and Transform:**
       - The Python script will clean data by identifying missing and inconsistent fields
       - The cleaned data will help us query the average, minimum, maximum, and total number of doctor ratings per specific field. 
- - Data Warehouse Loading: 
+ - **Data Warehouse Loading:** 
       - Data is loaded and stored into the data warehouse
 
 [Information Architecture Diagram File](https://drive.google.com/file/d/1yQ8kCZqVHiXviDYuDzm0dMQ2HInWzBGS/view?usp=sharing)
@@ -127,21 +127,21 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 ![Technical Architecture Diagram](docs/diagram/techarch.png)
 
 ### Product Architecture
-- Product Overview:
+- **Product Overview:**
      - This product contains an ELT data pipeline and warehousing process that will allow us to understand relevant information and insights behind doctor/healthcare provider ratings, population, and location. The goal is to ensure that the product helps us fulfill our business, functional, and data requirements.
   
-- Main Components:
+- **Main Components:**
 - Data Source 
      - Healthcare provider data from RateMD is connected and contains data on doctor location, specialty, rating, appointment availability, etc.
-- Python Extraction Script
+- **Python Extraction Script**
      - Python scripts were used to extract the data. 
-- Temporary Storage
+- **Temporary Storage**
      - The extracted data was stored in an Azure blob in case of any modification or errors when loading the data.
-- Data Warehouse
+- **Data Warehouse**
      - Raw data is loaded into the Snowflake warehouse. 
-- Transformation
+- **Transformation**
      - This process contains cleaning, reformatting, and transforming the data to remove inconsistencies and help us retrieve relevant information about doctor ratings. 
-- Data Visualization for Analytics 
+- **Data Visualization for Analytics** 
      - The visualization will be created using Tableau, which will help us figure out which county, state, and zip code has the lowest/highest doctor ratings. It also helps us answer whether or not our business, functional, and data requirements were fulfilled. 
 
 
