@@ -185,7 +185,7 @@ Once the dimensional model was in place, we implemented layer using modern data 
 ### Spring 4: Visualization Planning & Wireframing  
 - We started designing a wireframe to outline the key Tableau visualizations we want to build.
 - These visuals are based on our requirements and will help answer questions.
-- Final dashboards will be built using Tableau, and the visuals will be based on the fleaned fact and dimension tables in snowflake.   
+- Final dashboards will be built using Tableau, and the visuals will be based on the cleaned fact and dimension tables in snowflake.   
 ## F. Visualization
 Provide details of the visualizations created for the project.
 
