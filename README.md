@@ -147,36 +147,36 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 
 ## Dimensional Modeling  
 ### Dimensional Modeling
-- Explain the dimensional modeling
-- Example:
-  - **Facts**: describe all the facts
-  - **Dimension**: include all dimensions  
-
-  - ![Dimensional Model](https://github.com/AmiJoba22/RateMD-Datapipe/blob/main/docs/diagram/ratemd_model.png)    
+Our project uses a **star schema** approach to organize the RateMD data. The central `fact_ratemd` table captures metrics such as average ratings, rating counts and service scores. This fact table is connected to three supporting dimension tables: 
+- `dim_location`: Provides geographic details such as county, state and zip code.
+- `dim_specialty`: Provides doctor specialty information.  
+- `dim_date`: This dimension provides date breakdown by day, month, quarter, and year.
+This star schema model supports filtering and slicing of data across geography, specialties and time. 
+![Dimensional Model](https://github.com/AmiJoba22/RateMD-Datapipe/blob/main/docs/diagram/ratemd_model.png)    
 
 # Methodology and Implementation  
-We used a modified agile approach, across five weeks. Each sprit focused on key milestones from connection to data sources to modeling, trasnforming and visualizing the data. Tasks were divided by sprints and assigned among group members. 
+We used a modified agile approach, across five weeks. Each sprint focused on key milestones from connection to data sources to modeling, trasnforming and visualizing the data. Tasks were divided by sprints and assigned among group members. 
 
 ### Sprint 1: Data Collection and Storage  
-- We connected to MongoDb, which was our source of rateMD data. 
-- Using Google Colab, we authenticated to MongoDb and extracted the data.  
-- Because the dataset was too large to dowload all at once, we xtracted it in chunks - this helped avoid memory errors.
-- The dowloaded data was then uploaded to Azure Blob Storage, which we used as our central cloud respository.
+- We connected to **MongoDb**, which was our source of rateMD data. 
+- Using **Google Colab**, we authenticated to MongoDb and extracted the data.  
+- Because the dataset was too large to dowload all at once, we extracted it in chunks - this helped avoid memory errors.
+- The dowloaded data was then uploaded to **Azure Blob Storage**, which we used as our central cloud respository.
   
 ### Sprint 2: Data Processing and Modeling  
--  We cleaned and flattened the nested data fields - for example, converting location.rating.cleanliness into a clear named column: rating_cleanliness.
--  We desgined a star schema using DbSchema, featuring one central fact table and three dimension tables.
+-  We cleaned and flattened the nested data fields - for example, converting `location.rating.cleanliness` into a clear named column: `rating_cleanliness`.  
+-  We desgined a star schema using DbSchema, featuring one central fact table and three supporting dimension tables.
 -  Dimension tables include:
-      - **dim_location**
-      - **dim_date**
-      - **dim_specialty**
+      - `dim_location`
+      - `dim_date`
+      - `dim_specialty`
 ### Spring 3: ELT pipeline and Transformation  
 Once the dimensional model was in place, we implemented layer using modern data tooling.  
 - We used dbt to create SQL-based models that transformed the raw data into cleaned, warehouse-ready tables.
 - The process followed an ELT approach:  
-       - **Extract**: From MongoDB.    
-       - **Load**: Upload files into Azure Blob Storage, then load into snowflake.  
-       - **Transform**: Use dbt models to clean, rename and structure the data.
+  - **Extract**: From MongoDB.    
+  - **Load**: Upload files into Azure Blob Storage, then load into snowflake.  
+  - **Transform**: Use dbt models to clean, rename and structure the data.
 - The transformed output matched our dimensional models, ensuring consistency.
 
 ### Spring 4: Visualization Planning & Wireframing  
