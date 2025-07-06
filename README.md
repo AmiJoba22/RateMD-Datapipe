@@ -14,7 +14,7 @@ A data warehouse will be created to evaluate and analyze the ratings of doctors,
        - Data Analyst: Responsible for data analysis and reporting.
        - Healthcare Administrators & Analysts: Can use analysis to understand RateMD’s reliability.They can also use the UI visualization to make decisions for facilities. 
 
--**Risks**
+- **Risks**  
   - Potential risks and challenges: 
     - Continuous updates of records can throw off accuracy
     - Lack of consistent data between locations and ratings.
