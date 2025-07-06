@@ -170,6 +170,7 @@ We used a modified agile approach, across five weeks. Each sprint focused on key
       - `dim_location`
       - `dim_date`
       - `dim_specialty`
+- A ![data dictionary](https://docs.google.com/document/d/10pqov5ll8gd53zC5Y4RmAVgQYQJkMmGIZE5ut_S-cVw/edit?usp=sharing) was also created to describe the data fields. 
 ### Spring 3: ELT pipeline and Transformation  
 Once the dimensional model was in place, we implemented layer using modern data tooling.  
 - We used dbt to create SQL-based models that transformed the raw data into cleaned, warehouse-ready tables.
