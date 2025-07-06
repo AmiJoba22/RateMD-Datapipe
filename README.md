@@ -217,4 +217,3 @@ Summarize the outcomes of the project and any potential next steps.
 
 ---
 
-*Replace placeholders like "path_to_image" with actual file paths or URLs.*
