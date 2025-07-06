@@ -156,25 +156,35 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 
   - ![Dimensional Modeling Diagram](https://github.com/AmiJoba22/RateMD-Datapipe/blob/main/docs/diagram/ratemd_schema.png)  
 
-## E. Methodology and Implementation
-Describe the methodology used in the project and the steps followed during implementation.
+# Methodology and Implementation  
+We used a modified agile approach, across five weeks. Each sprit focused on key milestones from connection to data sources to modeling, trasnforming and visualizing the data. Tasks were divided by sprints and assigned among group members. 
 
-- Outline the approach taken (e.g., Agile, Waterfall).
-- Describe key phases, such as development, testing, deployment.
-- Example:
-  - Sprint 1: Setup and Data Collection
-  - Sprint 2: Data Processing and Model Building
-- Metadata Management
-  - Data Dictionary
-  - Mapping Sources and Target Systems
-  - List of all functions
-	- Function 1 
-	- Function 2
-	- Function 3
-- ETL Extract Load Transform
-- ELT Extract Transform Load
-- Tools 
+## Sprint 1: Data Collection and Storage  
+- We connected to MongoDb, which was our source of rateMD data. 
+- Using Google Colab, we authenticated to MongoDb and extracted the data.  
+- Because the dataset was too large to dowload all at once, we xtracted it in chunks - this helped avoid memory errors.
+- The dowloaded data was then uploaded to Azure Blob Storage, which we used as our central cloud respository.
+  
+## Sprint 2: Data Processing and Modeling  
+-  We cleaned and flattened the nested data fields - for example, converting location.rating.cleanliness into a clear named column: rating_cleanliness.
+-  We desgined a star schema using DbSchema, featuring one central fact table and three dimension tables.
+-  Dimension tables include:
+      - **dim_location**
+      - **dim_date**
+      - **dim_specialty**
+## Spring 3: ELT pipeline and Transformation  
+Once the dimensional model was in place, we implemented layer using modern data tooling.  
+- We used dbt to create SQL-based models that transformed the raw data into cleaned, warehouse-ready tables.
+- The process followed an ELT approach:  
+       - **Extract**: From MongoDB.    
+       - **Load**: Upload files into Azure Blob Storage, then load into snowflake.  
+       - **Transform**: Use dbt models to clean, rename and structure the data.
+- The transformed output matched our dimensional models, ensuring consistency.
 
+## Spring 4: Visualization Planning & Wireframing  
+- We started designing a wireframe to outline the key Tableau visualizations we want to build.
+- These visuals are based on our requirements and will help answer questions.
+- Final dashboards will be built using Tableau, and the visuals will be based on the fleaned fact and dimension tables in snowflake.   
 ## F. Visualization
 Provide details of the visualizations created for the project.
 
