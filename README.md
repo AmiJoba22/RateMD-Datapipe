@@ -126,11 +126,11 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 
 ![Technical Architecture Diagram](docs/diagram/techarch.png)
 
-### Product Architecture
-- **Product Overview:**
-     - This product contains an ELT data pipeline and warehousing process that will allow us to understand relevant information and insights behind doctor/healthcare provider ratings, population, and location. The goal is to ensure that the product helps us fulfill our business, functional, and data requirements.
+## Product Architecture
+### **Product Overview:**
+- This product contains an ELT data pipeline and warehousing process that will allow us to understand relevant information and insights behind doctor/healthcare provider ratings, population, and location. The goal is to ensure that the product helps us fulfill our business, functional, and data requirements.
   
-- **Main Components:**
+### **Main Components:**
 - **Data Source** 
      - Healthcare provider data from RateMD is connected and contains data on doctor location, specialty, rating, appointment availability, etc.
 - **Python Extraction Script**
