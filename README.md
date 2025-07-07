@@ -197,7 +197,7 @@ Provide details of the visualizations created for the project.
   - [Prototype Show](https://www.figma.com/proto/xQkFt9CMu45B9M2Ef1x24D/RateMD-Wireframe-Prototype?node-id=7-167&p=f&t=KIPGuo8okXWeAFLK-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A3)
 - **Visualization dashboard with Tableau**.
   - [Tableau Dashboard File](https://us-east-1.online.tableau.com/t/aminajobarteh-391df2a485/views/Ratemd_2/RateMDVisualDashboard)
-  - ![Visualization Example](ratemd-visual-tableau.png)
+
     
 ## Insights  
 - **Puerto Rico tops the list:**
