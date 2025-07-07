@@ -214,11 +214,12 @@ Provide details of the visualizations created for the project.
 
 ## Conclusion  
 ### What was achieved:  
-- Discovered that Puero Rico, despite its lower rating count, had the highest average rating.
+- Discovered that Puerto Rico, despite its lower rating count, had the highest average rating.
+- Discovered that Delaware had the lowest average rating. 
 - Discovered that Radiation Oncologists and holistic care specialists are ranked top in satisfaction as they have the highest average rating.
 
 ### How the results can be used:  
-- Healthcare providers can study top-rated specialists to adop best practices and address the gaps in low-rated medical fields.  
+- Healthcare providers can study top-rated specialists to adopt best practices and address the gaps in low-rated medical fields.  
 - Hospitals may use the data to make strategic hiring or training decisions to drive higher satisfaction ratings.
 - Regional health officials can use location filters to prioritze quality improvement in underperforming areas.
 
