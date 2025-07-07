@@ -196,7 +196,8 @@ Provide details of the visualizations created for the project.
   - ![Wireframe]()
   - ![Prototype Show]()
 - **Visualization dashboard with Tableau**.
-  - ![Visualization Example](path_to_image)
+  - [Tableau Dashboard File](https://us-east-1.online.tableau.com/t/aminajobarteh-391df2a485/views/Ratemd_2/RateMDVisualDashboard)
+  - ![Visualization Example](ratemd-visual-tableau.png)
     
 ## Insights  
 - **Puerto Rico tops the list:** Puero Rico boasts the higest average doctor rating among U.S. States at 4.317, although it's based on a small sample count (3,000+ ratings), so results should be interpreted cautiously.
