@@ -189,9 +189,10 @@ Once the dimensional model was in place, we implemented layer using modern data 
 Provide details of the visualizations created for the project.
 
 - **Visualization Sketch**
-  - Various charts were sketched by hand to analyze which visualizations would be best to fufill our business, functional, and data requirements. 
-  - ![Raw Sketch Here]()
-  - A wireframe and prototype show were created using **Figma** to get a more digital version of our visualization plans. Note that doctor finder chart and ratings over time chart was discarded in final planning.
+  - Various charts were sketched by hand and using **draw.io** to display which visualizations would best fufill our business, functional, and data requirements. 
+  - ![Sketch 1]()
+  - ![Stetch 2]()
+  - A wireframe and prototype show were created using **Figma** to get a more digital version of our visualization plans. Note that doctor finder chart and ratings over time chart were discarded in final planning.
   - ![Wireframe]()
   - ![Prototype Show]()
 - **Visualization dashboard with Tableau**.
