@@ -200,10 +200,16 @@ Provide details of the visualizations created for the project.
   - ![Visualization Example](ratemd-visual-tableau.png)
     
 ## Insights  
-- **Puerto Rico tops the list:** Puero Rico boasts the higest average doctor rating among U.S. States at 4.317, although it's based on a small sample count (3,000+ ratings), so results should be interpreted cautiously.
-- **Regional outliers**: States in the Northeast and Southeast, consistently show above-average ratings, while certain western states trend below-average ratings.
-- **Radiation Oncologists and Homeopaths ranked highest**: Among worldwide ratings, Radiation Oncologists, Homeopath's, Physician Assostants and Acupuncturist are on top of the list with average ratings above 4.4, indicating a strong satisfaction within the medical field.
-- **Lower specialties ratings**: Specialties like Osteopath, Psychiatrist, Emergency Room Doctor and Dietitian consistently recieved ratings under 3.6, putting these medical fields at the bottom of the list, highlighting potential areas for improvement.
+- **Puerto Rico tops the list:**
+   - Puero Rico boasts the higest average doctor rating among U.S. States at 4.317, although it's based on a small sample count (3,000+ ratings), so results should be interpreted cautiously.
+- **Delware takes the bottom**
+   - Delware has the lowest average doctor rating among U.S States at 3.733. 
+- **Regional outliers**:
+   - States in the Northeast and Southeast, consistently show above-average ratings, while certain western states trend below-average ratings.
+- **Radiation Oncologists and Homeopaths ranked highest**:
+   - Among worldwide ratings, Radiation Oncologists, Homeopath's, Physician Assostants and Acupuncturist are on top of the list with average ratings above 4.4, indicating a strong satisfaction within the medical field.
+- **Lower specialties ratings**:
+  - Specialties like Osteopath, Psychiatrist, Emergency Room Doctor and Dietitian consistently recieved ratings under 3.6, putting these medical fields at the bottom of the list, highlighting potential areas for improvement.
 - Filters at the city and zip code level reveal how specialties perform differently by region.  
 
 ## Conclusion  
