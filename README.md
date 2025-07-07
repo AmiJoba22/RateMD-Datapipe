@@ -194,7 +194,7 @@ Provide details of the visualizations created for the project.
   - A wireframe was also created using **Figma** to get a more digital version of our visualization plans. Note that doctor finder chart and ratings over time chart was discarded in final planning.
   - ![Wireframe]()
   - ![Prototype Show]()
-  - Lastly, Here is our visualization dashboard created using **Tableau**.
+- **Visualization dashboard with Tableau**.
   - ![Visualization Example](path_to_image)
     
 ## G. Insights
