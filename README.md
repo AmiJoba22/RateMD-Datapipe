@@ -191,7 +191,7 @@ Provide details of the visualizations created for the project.
 - **Visualization Sketch**
   - Various charts were sketched by hand and using **draw.io** to display which visualizations would best fufill our business, functional, and data requirements. 
   - [Sketch by hand](docs/diagram/RateMD-UI-sketch.pdf)
-  - [Digital Stetch]()
+  - [Digital Stetch](https://drive.google.com/file/d/16j-pG0vcj2Kno_AJJmgQAiSPBOsb_uz-/view?usp=sharing)
 - A wireframe and prototype show were created using **Figma** to get a more digital version of our visualization plans. Note that doctor finder chart and ratings over time chart were discarded in final planning.
   - ![Wireframe]()
   - ![Prototype Show]()
