@@ -202,7 +202,7 @@ Provide details of the visualizations created for the project.
 ## Insights  
 - **Puerto Rico tops the list:**
    - Puero Rico boasts the higest average doctor rating among U.S. States at 4.317, although it's based on a small sample count (3,000+ ratings), so results should be interpreted cautiously.
-- **Delware takes the bottom**
+- **Delware takes the bottom:**
    - Delware has the lowest average doctor rating among U.S States at 3.733. 
 - **Regional outliers**:
    - States in the Northeast and Southeast, consistently show above-average ratings, while certain western states trend below-average ratings.
