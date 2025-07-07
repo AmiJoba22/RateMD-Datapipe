@@ -198,22 +198,22 @@ Provide details of the visualizations created for the project.
 - **Visualization dashboard with Tableau**.
   - ![Visualization Example](path_to_image)
     
-## G. Insights
-Highlight any key insights gained from the project.
+## Insights  
+- **Puerto Rico tops the list:** Puero Rico boasts the higest average doctor rating among U.S. States at 4.317, although it's based on a small sample count (3,000+ ratings), so results should be interpreted cautiously.
+- **Regional outliers**: States in the Northeast and Southeast, consistently show above-average ratings, while certain western states trend below-average ratings.
+- **Radiation Oncologists and Homeopaths ranked highest**: Among worldwide ratings, Radiation Oncologists, Homeopath's, Physician Assostants and Acupuncturist are on top of the list with average ratings above 4.4, indicating a strong satisfaction within the medical field.
+- **Lower specialties ratings**: Specialties like Osteopath, Psychiatrist, Emergency Room Doctor and Dietitian consistently recieved ratings under 3.6, putting these medical fields at the bottom of the list, highlighting potential areas for improvement.
+- Filters at the city and zip code level reveal how specialties perform differently by region.  
 
-- Provide an overview of what was learned or discovered through data analysis.
-- Example:
-  - High correlation between customer satisfaction and response time.
-  - Significant opportunity for cost reduction in supply chain operations.
+## Conclusion  
+### What was achieved:  
+- Discovered that Puero Rico, despite its lower rating count, had the highest average rating.
+- Discovered that Radiation Oncologists and holistic care specialists are ranked top in satisfaction as they have the highest average rating.
 
-## H. Conclusion
-Summarize the outcomes of the project and any potential next steps.
-
-- What was achieved?
-- How can the results be used moving forward?
-- Example:
-  - The project successfully reduced costs by 20% through process automation.
-  - Future work may include expanding the solution to new departments.
+### How the results can be used:  
+- Healthcare providers can study top-rated specialists to adop best practices and address the gaps in low-rated medical fields.  
+- Hospitals may use the data to make strategic hiring or training decisions to drive higher satisfaction ratings.
+- Regional health officials can use location filters to prioritze quality improvement in underperforming areas.
 
 ## I. References
 - Provide a list of all references used in the project, formatted according to MLA style.
