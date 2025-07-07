@@ -193,8 +193,8 @@ Provide details of the visualizations created for the project.
   - [Sketch by hand](docs/diagram/RateMD-UI-sketch.pdf)
   - [Digital Stetch](https://drive.google.com/file/d/16j-pG0vcj2Kno_AJJmgQAiSPBOsb_uz-/view?usp=sharing)
 - A wireframe and prototype show were created using **Figma** to get a more digital version of our visualization plans. Note that doctor finder chart and ratings over time chart were discarded in final planning.
-  - ![Wireframe]()
-  - ![Prototype Show]()
+  - ![Wireframe](https://www.figma.com/design/xQkFt9CMu45B9M2Ef1x24D/RateMD-Wireframe-Prototype?node-id=0-1&t=VgPqPtrO2UNH4odW-1)
+  - ![Prototype Show](https://www.figma.com/proto/xQkFt9CMu45B9M2Ef1x24D/RateMD-Wireframe-Prototype?node-id=7-167&p=f&t=KIPGuo8okXWeAFLK-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A3)
 - **Visualization dashboard with Tableau**.
   - [Tableau Dashboard File](https://us-east-1.online.tableau.com/t/aminajobarteh-391df2a485/views/Ratemd_2/RateMDVisualDashboard)
   - ![Visualization Example](ratemd-visual-tableau.png)
