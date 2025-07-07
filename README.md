@@ -188,10 +188,15 @@ Once the dimensional model was in place, we implemented layer using modern data 
 ## F. Visualization
 Provide details of the visualizations created for the project.
 
-- Include charts, graphs, and any other visual representation of the data.
+- **Visualization Sketch**
+  - Various charts were sketched by hand to analyze which visualizations would be best to fufill our business, functional, and data requirements. 
+  - ![Raw Sketch Here]()
+  - A wireframe was also created using **Figma** to get a more digital version of our visualization plans. Note that doctor finder chart and ratings over time chart was discarded in final planning.
+  - ![Wireframe]()
+  - ![Prototype Show]()
+  - Lastly, Here is our visualization dashboard created using **Tableau**.
   - ![Visualization Example](path_to_image)
-- Mention any libraries or tools used for visualization (e.g., Matplotlib, Power BI).
-
+    
 ## G. Insights
 Highlight any key insights gained from the project.
 
