@@ -224,8 +224,6 @@ Provide details of the visualizations created for the project.
 - Regional health officials can use location filters to prioritze quality improvement in underperforming areas.
 
 ## I. References
-- Provide a list of all references used in the project, formatted according to MLA style.
-
 1. Inmon, W. H. Building the Data Warehouse. 4th ed., John Wiley & Sons, 2005.
 2. Sherman, Rick. Business Intelligence Guidebook: From Data Integration to Analytics. Elsevier, 2014.
 3. Kimball, Ralph. The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling. 3rd ed., John Wiley & Sons, 2013.
