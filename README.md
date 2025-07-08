@@ -68,7 +68,7 @@ We’ll be identifying the average, minimum, maximum, and total number of doctor
 -	Per specialty 
 -	Per state
   
-This will be conducted to determine which county, state, and zip code have the lowest doctor ratings. 
+This will be conducted to determine which state, city, and zip code have the lowest doctor ratings. 
  
 
 ## Functional Requirements
@@ -151,7 +151,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
 - **Transformation**
      - This process contains cleaning, reformatting, and transforming the data to remove inconsistencies and help us retrieve relevant information about doctor ratings. 
 - **Data Visualization for Analytics** 
-     - The visualization will be created using Tableau, which will help us figure out which county, state, and zip code has the lowest/highest doctor ratings. It also helps us answer whether or not our business, functional, and data requirements were fulfilled. 
+     - The visualization will be created using Tableau, which will help us figure out which city, state, and zip code has the lowest/highest doctor ratings. It also helps us answer whether or not our business, functional, and data requirements were fulfilled. 
 
 
 ## Dimensional Modeling  
