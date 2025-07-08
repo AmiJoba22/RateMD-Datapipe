@@ -21,13 +21,19 @@ A data warehouse will be created to evaluate and analyze the ratings of doctors,
     - Missing or incomplete data on specific fields (Location, zip code, specialty). 
 
 - **Costs** 
-    - Software licenses: $0  
-       - All tools used (MongoDb, Tableau, Python) are free to use.  
+    - Software licenses: $306 - $307
+       - MongoDB Atlas: $25/month
+       - Snowflake: $100/month
+       - dbt Cloud: $100/month
+       - Azure Blob Storage: $1-$2
+       - Tableau: $70
+       - dbSchema: $10/month
+       - Google Colab: $0
     - Hardware upgrades: $0  
        - Personal computers are being used for this project, therefore no addiional hardware is needed.  
     - Data access: $0  
-       - Data is Provided by the professor via MongoDb.  
-    - Total Estimated Cost: $0
+         - Provided by Professor: $0
+    - Total Estimated Cost: $306 - $307
 - **Timeline**  
     - Week 1: Requirements Gathering and Data Understanding
         - Define busniess and functional requirements
