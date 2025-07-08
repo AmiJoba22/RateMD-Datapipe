@@ -226,9 +226,9 @@ Provide details of the visualizations created for the project.
 ## I. References
 - Provide a list of all references used in the project, formatted according to MLA style.
 
-1. Author Last Name, First Name. *Title of Book*. Publisher, Year.
-2. "Title of Article." *Name of Journal*, vol. 1, no. 1, Year, pp. 1-10.
-3. *Title of Website*. Website Publisher, Year, URL.
+1. Inmon, W. H. Building the Data Warehouse. 4th ed., John Wiley & Sons, 2005.
+2. Sherman, Rick. Business Intelligence Guidebook: From Data Integration to Analytics. Elsevier, 2014.
+3. Kimball, Ralph. The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling. 3rd ed., John Wiley & Sons, 2013.
 
 ---
 
