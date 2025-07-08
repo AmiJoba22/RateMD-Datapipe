@@ -49,7 +49,7 @@ A data warehouse will be created to evaluate and analyze the ratings of doctors,
         - Complete README, presentation slides and tableau visuals
           
 - **Project Documentation File:**
-        - [Documentation](https://docs.google.com/document/d/1RVdjYlpa-3S9S72xZNym9Taq5P_20KhUpZmwLKCZ_e4/edit?usp=sharing)
+    - [Documentation](https://docs.google.com/document/d/1RVdjYlpa-3S9S72xZNym9Taq5P_20KhUpZmwLKCZ_e4/edit?usp=sharing)
   
 - **Benefits**
   	- Reviews and ratings data can help drive decisions based on ways to improve the quality of doctor performance and specialties. 
