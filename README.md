@@ -47,6 +47,10 @@ A data warehouse will be created to evaluate and analyze the ratings of doctors,
         - Run queries (avg/min/max ratings per state, , zip and speciality)  
     - Week 5: Final Report, Presentation and Submission
         - Complete README, presentation slides and tableau visuals
+          
+- **Project Documentation File:**
+- [Documentation](https://docs.google.com/document/d/1RVdjYlpa-3S9S72xZNym9Taq5P_20KhUpZmwLKCZ_e4/edit?usp=sharing)
+  
 - **Benefits**
   	- Reviews and ratings data can help drive decisions based on ways to improve the quality of doctor performance and specialties. 
 	- Identify locations with the lowest number of practicing doctors and how to improve that population density. 
@@ -228,9 +232,6 @@ Provide details of the visualizations created for the project.
 - Healthcare providers can study top-rated specialists to adopt best practices and address the gaps in low-rated medical fields.  
 - Hospitals may use the data to make strategic hiring or training decisions to drive higher satisfaction ratings.
 - Regional health officials can use location filters to prioritze quality improvement in underperforming areas.
-
-**Project Documentation File:**
-- [Documentation](https://docs.google.com/document/d/1RVdjYlpa-3S9S72xZNym9Taq5P_20KhUpZmwLKCZ_e4/edit?usp=sharing)
 
 ## I. References
 1. Inmon, W. H. Building the Data Warehouse. 4th ed., John Wiley & Sons, 2005.
