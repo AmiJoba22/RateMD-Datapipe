@@ -223,7 +223,7 @@ Provide details of the visualizations created for the project.
 - Hospitals may use the data to make strategic hiring or training decisions to drive higher satisfaction ratings.
 - Regional health officials can use location filters to prioritze quality improvement in underperforming areas.
 
--Project Documentation File: [Documentation](https://docs.google.com/document/d/1RVdjYlpa-3S9S72xZNym9Taq5P_20KhUpZmwLKCZ_e4/edit?usp=sharing)
+- Project Documentation File: [Documentation](https://docs.google.com/document/d/1RVdjYlpa-3S9S72xZNym9Taq5P_20KhUpZmwLKCZ_e4/edit?usp=sharing)
 
 ## I. References
 1. Inmon, W. H. Building the Data Warehouse. 4th ed., John Wiley & Sons, 2005.
