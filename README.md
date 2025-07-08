@@ -207,11 +207,12 @@ Provide details of the visualizations created for the project.
   - [Prototype Show](https://www.figma.com/proto/xQkFt9CMu45B9M2Ef1x24D/RateMD-Wireframe-Prototype?node-id=7-167&p=f&t=KIPGuo8okXWeAFLK-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A3)
 - **Visualization dashboard with Tableau**.
   - [Tableau Dashboard File](https://us-east-1.online.tableau.com/t/aminajobarteh-391df2a485/views/Ratemd_2/RateMDVisualDashboard)
+  - ![Tableau Dashboard](docs/diagram/RateMD-Visual-Dashboard.png)
 
     
 ## Insights  
 - **Puerto Rico tops the list:**
-   - Puero Rico boasts the higest average doctor rating among U.S. States at 4.317, although it's based on a small sample count (3,000+ ratings), so results should be interpreted cautiously.
+   - Puerto Rico boasts the higest average doctor rating among U.S. States at 4.317, although it's based on a small sample count (3,000+ ratings), so results should be interpreted cautiously.
 - **Delware takes the bottom:**
    - Delware has the lowest average doctor rating among U.S States at 3.733. 
 - **Regional outliers**:
