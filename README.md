@@ -234,7 +234,7 @@ Provide details of the visualizations created for the project.
 - Hospitals may use the data to make strategic hiring or training decisions to drive higher satisfaction ratings.
 - Regional health officials can use location filters to prioritze quality improvement in underperforming areas.
 
-## I. References
+##  References
 1. Inmon, W. H. Building the Data Warehouse. 4th ed., John Wiley & Sons, 2005.
 2. Sherman, Rick. Business Intelligence Guidebook: From Data Integration to Analytics. Elsevier, 2014.
 3. Kimball, Ralph. The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling. 3rd ed., John Wiley & Sons, 2013.
