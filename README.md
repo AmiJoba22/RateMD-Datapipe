@@ -218,7 +218,7 @@ Provide details of the visualizations created for the project.
 - **Regional outliers**:
    - States in the Northeast and Southeast, consistently show above-average ratings, while certain western states trend below-average ratings.
 - **Radiation Oncologists and Homeopaths ranked highest**:
-   - Among worldwide ratings, Radiation Oncologists, Homeopath's, Physician Assostants and Acupuncturist are on top of the list with average ratings above 4.4, indicating a strong satisfaction within the medical field.
+   - Among worldwide ratings, Radiation Oncologists, Homeopath's, Physician Assistants and Acupuncturist are on top of the list with average ratings above 4.4, indicating a strong satisfaction within the medical field.
 - **Lower specialties ratings**:
   - Specialties like Osteopath, Psychiatrist, Emergency Room Doctor and Dietitian consistently recieved ratings under 3.6, putting these medical fields at the bottom of the list, highlighting potential areas for improvement.
 - Filters at the city and zip code level reveal how specialties perform differently by region.  
