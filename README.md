@@ -206,8 +206,9 @@ Provide details of the visualizations created for the project.
   - [Wireframe](https://www.figma.com/design/xQkFt9CMu45B9M2Ef1x24D/RateMD-Wireframe-Prototype?node-id=0-1&t=VgPqPtrO2UNH4odW-1)
   - [Prototype Show](https://www.figma.com/proto/xQkFt9CMu45B9M2Ef1x24D/RateMD-Wireframe-Prototype?node-id=7-167&p=f&t=KIPGuo8okXWeAFLK-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A3)
 - **Visualization dashboard with Tableau**.
-  - [Tableau Dashboard File](https://us-east-1.online.tableau.com/t/aminajobarteh-391df2a485/views/Ratemd_2/RateMDVisualDashboard)
+  - [Tableau Dashboard File](https://us-east-1.online.tableau.com/t/aminajobarteh-391df2a485/views/Ratemd_2/RateMDVisualDashboard) [Tableau Live Dashboard](https://us-east-1.online.tableau.com/t/aminajobarteh-391df2a485/views/Ratemd_2/RateMDVisualDashboard) 
   - ![Tableau Dashboard](docs/diagram/RateMD-Visual-Dashboard.png)
+  - 
 
     
 ## Insights  
