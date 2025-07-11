@@ -133,7 +133,7 @@ From MongoDB, we’ll be analyzing and querying the following fields for our sch
   
 [Technical Architecture Diagram File](https://drive.google.com/file/d/1jEL6L44DEp3OfYQefv5G5MtxkTkDfVfS/view?usp=sharing)
 
-![Technical Architecture Diagram](docs/diagram/techarch.png)
+![Technical Architecture Diagram](docs/diagram/techarchdiagram.png)
 
 ## Product Architecture
 ### **Product Overview:**
