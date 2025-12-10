@@ -208,7 +208,7 @@ Provide details of the visualizations created for the project.
 - **Visualization dashboard with Tableau**.
   - [Tableau Live Dashboard](https://us-east-1.online.tableau.com/t/aminajobarteh-391df2a485/views/Ratemd_2/RateMDVisualDashboard)
     
-  - ![Tableau Dashboard](ratemd-visual-tableau.png)
+  - ![Tableau Dashboard](docs/diagram/RateMD-Visual-Dashboard.png)
 
     
 ## Insights  
